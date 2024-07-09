@@ -14,7 +14,7 @@ function [fluxOutput,fluxInternal,storeInternal]=DPWM(input,parameter)
     Smax=parameter(2);     % Soil moisture storage capacity
     afa2=parameter(3);     % The ratio between initial evapotranspiration opportunity and evapotranspiration opportunity
     kf=parameter(4);       % Fast runoff routing coefficient
-    ks=parameter(5);       % Slow runoff routing coefficient
+    ks=parameter(5);       % Slow runoff routing coefficient, which should be smaller than kf
     
     Q=zeros(lengthTS,1);    % initialize time series of streamflow
     ET=zeros(lengthTS,1);   % initialize time series of evapotranspiration
