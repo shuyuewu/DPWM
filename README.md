@@ -1,3 +1,4 @@
+codes for DPWM, which is a Daily-scale Proportionality-based Water Balance Model.
 DPWM.m is the function file of DPWM written by Matlab.
 simulationusingDPWM is for applying DPWM to simulate hydrological times series of 671  CAMELS catchments across the contigious US.
 rainplusmelt.mat is data of rainfall+snowmelt times series of 671  CAMELS catchments.
